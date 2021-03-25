@@ -37,13 +37,10 @@ contains(DEFINES, USE_QT4){
 }
 
 
+#include(LxStd.pri)
+include(src/src.pri)
 
-
-
-
-include(LxStd.pri)
-
-
+#Qt5.14为什么$$HEADERS会多出Other files目录
 CONFIG(release, debug|release) {
 #target.sources
 #target.path = $$[QT_INSTALL_EXAMPLES]/tools/echoplugin
@@ -55,5 +52,10 @@ INSTALLS += target headers
 }
 
 
-DISTFILES += \
-    $$files(conf/*.conf)
+
+DISTFILES =
+
+OTHER_FILES =
+
+#DISTFILES += \
+#    $$files(conf/*.conf)

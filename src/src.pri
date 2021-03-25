@@ -1,3 +1,19 @@
+INCLUDEPATH += $$PWD
+INCLUDEPATH += $$PWD/def
+DEPENDPATH += $$PWD
+
+#OTHER_FILES =
+SOURCES += \
+    $$PWD/LStd.cpp \
+    $$PWD/crypto/Base64.cpp \
+    $$PWD/crypto/LAes.cpp \
+    $$PWD/crypto/LAesEx.cpp \
+    $$PWD/crypto/LEncrypt.cpp \
+    $$PWD/crypto/LMd5.cpp \
+    $$PWD/datastructure/LBuffer.cc \
+    $$PWD/lxc/lxbin.c \
+    $$PWD/patterns/Singleton.cpp \
+    $$PWD/template/Utility.cpp
 HEADERS += \
     $$PWD/LStd.h \
     $$PWD/LStdTool.h \
@@ -15,15 +31,3 @@ HEADERS += \
     $$PWD/lxc/lxmath.h \
     $$PWD/patterns/Singleton.h \
     $$PWD/template/Utility.h
-
-SOURCES += \
-    $$PWD/LStd.cpp \
-    $$PWD/crypto/Base64.cpp \
-    $$PWD/crypto/LAes.cpp \
-    $$PWD/crypto/LAesEx.cpp \
-    $$PWD/crypto/LEncrypt.cpp \
-    $$PWD/crypto/LMd5.cpp \
-    $$PWD/datastructure/LBuffer.cc \
-    $$PWD/lxc/lxbin.c \
-    $$PWD/patterns/Singleton.cpp \
-    $$PWD/template/Utility.cpp
