@@ -28,9 +28,9 @@ VS_VERSION_INFO VERSIONINFO
                 VALUE "ProductVersion", "0.3.0.0\0"
                 VALUE "LegalCopyright", "Lx\0"
                 VALUE "LegalTrademarks", "Lx\0"
-                VALUE "OriginalFilename", "LxStd.dll\0"
-                VALUE "ProductName", "LxStd.dll\0"
-                VALUE "InternalName", "LxStd.dll\0"
+                VALUE "OriginalFilename", "LQtTool.dll\0"
+                VALUE "ProductName", "LQtTool.dll\0"
+                VALUE "InternalName", "LQtTool.dll\0"
            END
         END
         
