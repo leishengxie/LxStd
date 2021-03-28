@@ -1,3 +1,4 @@
+INCLUDEPATH += $$PWD
 
 include($$PWD/widgets/widgets.pri)
 include($$PWD/core/core.pri)

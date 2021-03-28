@@ -27,8 +27,8 @@ SOURCES += \
 #DESTDIR = $$PWD/../bin
 
 # 引入widgets源码
-include($$PWD/../LQtTool/src/widgets/widgets.pri)
-INCLUDEPATH += $$PWD/../LQtTool/src/widgets
+include($$PWD/../src/LxQt/widgets/widgets.pri)
+INCLUDEPATH += $$PWD/../src/LxQt/widgets
 
 #make install
 CONFIG(release, debug|release) {

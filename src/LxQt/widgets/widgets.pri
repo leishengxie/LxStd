@@ -1,4 +1,9 @@
 
+INCLUDEPATH += $$PWD
+INCLUDEPATH += $$PWD/buttons
+INCLUDEPATH += $$PWD/labels
+INCLUDEPATH += $$PWD/lineEdits
+
 HEADERS += \
     $$PWD/buttons/LButtonGroup.h \
     $$PWD/buttons/LSliderButtons.h \
