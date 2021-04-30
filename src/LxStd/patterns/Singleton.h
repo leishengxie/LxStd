@@ -4,6 +4,13 @@
 #include <list>
 #include <algorithm>
 
+/// 关于对单例的封装，已经有第三方库proc封装了，如
+//ClassA &ClassA::instance(void)
+//{
+//    static Poco::SingletonHolder< ClassA > sh;
+//    return *sh.get();
+//}
+// 我的观点是，如果程序用到很少单例，就不用引用其他库的单例
 class CSingletonBase
 {
 	class InstanceTable : public std::list < CSingletonBase * >
